@@ -9,6 +9,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/idPinCode"/>
+        android:id="@+id/idPinCode"
+        android:inputType="number"/>
 
 </RelativeLayout>
