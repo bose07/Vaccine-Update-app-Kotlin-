@@ -11,6 +11,27 @@
         android:layout_height="wrap_content"
         android:id="@+id/idPinCode"
         android:inputType="number"
-        android:hint="enter pin code"/>
+        android:hint="enter pin code"
+        android:layout_toStartOf="@id/idBtnSearch"
+        android:layout_margin="3dp"
+        android:layout_toLeftOf="@id/idBtnSearch"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="3dp"
+        android:padding="2dp"
+        android:id="@+id/idBtnSearch"
+        android:layout_alignParentRight="true"
+
+        />
+
+       <androidx.recyclerview.widget.RecyclerView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_below="@id/idPinCode"
+           android:id="@+id/idRVcenters"/>
+
 
 </RelativeLayout>
