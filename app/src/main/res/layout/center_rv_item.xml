@@ -36,6 +36,14 @@
       <TextView
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
+          android:text="center"
+          android:layout_below="@id/idTVCenterLocation"
+          android:textColor="@color/black"
+          android:padding="3dp"
+          android:layout_margin="3dp"
+          android:drawableStart="@drawable/ic_timings"
+          android:drawablePadding="4dp"
+          android:id="@+id/idTVCenterTimings"
           />
 
 
