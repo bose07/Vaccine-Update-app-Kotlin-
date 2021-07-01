@@ -51,6 +51,8 @@
         android:layout_height="wrap_content"
         android:weightSum="2"
         android:orientation="horizontal"
+        android:layout_below="@id/idTVCenterTimings"
+
     />
     </RelativeLayout>
 
