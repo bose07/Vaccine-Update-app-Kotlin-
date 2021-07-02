@@ -51,9 +51,33 @@
         android:layout_height="wrap_content"
         android:weightSum="2"
         android:orientation="horizontal"
-        android:layout_below="@id/idTVCenterTimings"
+        android:layout_below="@id/idTVCenterTimings">
 
-    />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="vaccine name"
+            android:drawableLeft="@drawable/ic_vaccine"
+            android:drawablePadding="3dp"
+            android:layout_margin="3dp"
+            android:textColor="@color/black"
+            android:id="@+id/idTVVaccineName"
+            />
+
+           <TextView
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:text="fees"
+               android:id="@+id/idTVVaccineFees"
+
+               />
+
+
+    </LinearLayout>
+
+
     </RelativeLayout>
 
 
