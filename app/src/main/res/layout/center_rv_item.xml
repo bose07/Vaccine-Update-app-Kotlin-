@@ -71,7 +71,7 @@
                android:layout_weight="1"
                android:text="fees"
                android:id="@+id/idTVVaccineFees"
-
+               android:textColor="@color/black"
                />
 
 
