@@ -51,6 +51,7 @@
         android:layout_height="wrap_content"
         android:weightSum="2"
         android:layout_margin="3dp"
+        android:id="@+id/idLL"
         android:orientation="horizontal"
         android:layout_below="@id/idTVCenterTimings">
 
@@ -78,6 +79,40 @@
 
     </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_below="@+id/idLL"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="age limit"
+                android:id="@+id/idTVAgeLimit"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:layout_margin="3dp"
+                android:padding="3dp"
+                />
+           <TextView
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:id="@+id/idTVAvaliability"
+               android:layout_gravity="center"
+               android:layout_margin="3dp"
+               android:padding="3dp"
+               android:text="avaliability"
+               android:textAlignment="center"
+               android:textColor="@color/black"
+               />
+
+
+        </LinearLayout>
 
     </RelativeLayout>
 
