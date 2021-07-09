@@ -1,4 +1,8 @@
 package com.example.updatedvaccines
 
-class CenterRVModel {
-}
+data class CenterRVModel (
+
+    val centerName: String,
+        )
+
+
