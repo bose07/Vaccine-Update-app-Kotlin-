@@ -6,4 +6,5 @@ data class CenterRVModel (
     val centerAddress: String,
     val centerFromTime: String,
     val centerToTime: String,
+    val fee_type: String,
 )
