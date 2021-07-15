@@ -8,4 +8,5 @@ data class CenterRVModel (
     val centerToTime: String,
     val fee_type: String,
     val ageLimit: Int,
+    val vaccineName:String,
 )
