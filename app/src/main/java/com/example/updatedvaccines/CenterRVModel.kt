@@ -9,4 +9,5 @@ data class CenterRVModel (
     val fee_type: String,
     val ageLimit: Int,
     val vaccineName:String,
+    val avaliableCapacity: Int
 )
