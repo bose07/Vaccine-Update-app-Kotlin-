@@ -1,4 +1,6 @@
 package com.example.updatedvaccines
 
-class CenterRVAdapter {
+import androidx.recyclerview.widget.RecyclerView
+
+class CenterRVAdapter(private val centerList: List<CenterRVModel>) : RecyclerView.Adapter{
 }
